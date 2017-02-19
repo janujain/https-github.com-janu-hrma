@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31918" started-at="2017-02-19T13:29:33Z" finished-at="2017-02-19T13:30:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31918" started-at="2017-02-19T13:29:33Z" finished-at="2017-02-19T13:30:05Z">
+      <class name="com.hrm.scripts.CreateEmployee">
+        <test-method status="PASS" signature="initReport()[pri:0, instance:com.hrm.scripts.CreateEmployee@cb644e]" name="initReport" is-config="true" duration-ms="282" started-at="2017-02-19T18:59:33Z" finished-at="2017-02-19T18:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="initGlobalVar()[pri:0, instance:com.hrm.scripts.CreateEmployee@cb644e]" name="initGlobalVar" is-config="true" duration-ms="32" started-at="2017-02-19T18:59:33Z" finished-at="2017-02-19T18:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initGlobalVar -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:com.hrm.scripts.CreateEmployee@cb644e]" name="initApplication" is-config="true" duration-ms="4579" started-at="2017-02-19T18:59:33Z" finished-at="2017-02-19T18:59:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:com.hrm.scripts.CreateEmployee@cb644e]" name="preCondition" is-config="true" duration-ms="15119" started-at="2017-02-19T18:59:37Z" finished-at="2017-02-19T18:59:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hrm.scripts.CreateEmployee.testCreateEmployee()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testCreateEmployee()[pri:0, instance:com.hrm.scripts.CreateEmployee@cb644e]" name="testCreateEmployee" duration-ms="10815" started-at="2017-02-19T18:59:53Z" finished-at="2017-02-19T19:00:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateEmployee -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.hrm.scripts.CreateEmployee@cb644e]" name="postCondition" is-config="true" duration-ms="467" started-at="2017-02-19T19:00:03Z" finished-at="2017-02-19T19:00:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateEmployee status=SUCCESS method=CreateEmployee.testCreateEmployee()[pri:0, instance:com.hrm.scripts.CreateEmployee@cb644e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.hrm.scripts.CreateEmployee@cb644e]" name="closeApplication" is-config="true" duration-ms="888" started-at="2017-02-19T19:00:04Z" finished-at="2017-02-19T19:00:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="publishReport()[pri:0, instance:com.hrm.scripts.CreateEmployee@cb644e]" name="publishReport" is-config="true" duration-ms="282" started-at="2017-02-19T19:00:05Z" finished-at="2017-02-19T19:00:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- com.hrm.scripts.CreateEmployee -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
